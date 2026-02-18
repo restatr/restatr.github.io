@@ -12,8 +12,9 @@ This creates barriers to **reproducibility** (verifying published research requi
 
 restatr aims to provide open-source R implementations of the most important Stata commands for applied econometrics, validated for numerical equivalence against the originals.
 
-The first package is **ivreg2r**, an R implementation of Stata's `ivreg2` for IV/GMM estimation with flexible variance-covariance estimation. It is currently under active development.
+The first package is **[ivreg2r](https://github.com/restatr/ivreg2r)**, an R implementation of Stata's `ivreg2` for IV/GMM estimation with flexible variance-covariance estimation. It is under active development, with an initial release now available.
 
 ## Links
 
+- [ivreg2r](https://github.com/restatr/ivreg2r)
 - [GitHub Organization](https://github.com/restatr)
