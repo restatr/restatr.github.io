@@ -1,3 +1,5 @@
+<img src="restatr.svg" width="150">
+
 # restatr
 
 *Open-source tools for Stata apostates.*
