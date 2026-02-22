@@ -2,21 +2,20 @@
 
 # restatr
 
-*Open-source tools for Stata apostates.*
+*Reproduce Stata results in R.*
 
-## The Problem
+If a paper reports estimates from `ivreg2`, `reghdfe`, or `xtabond2`, reproducing those numbers currently requires a Stata licence. restatr provides open-source R implementations of the underlying methods, rigorously validated against the Stata originals.
 
-Stata is the dominant platform in applied microeconomics, and researchers like Baum, Schaffer, Stillman, Correia, Roodman, and others have done the field an enormous service by implementing key econometric methods — `ivreg2`, `reghdfe`, `xtabond2` — as user-contributed Stata packages. Writing for Stata made sense: that's where the users were.
+## Packages
 
-But these community-built packages have become so central that they're effectively part of Stata's value proposition. The result is that access to foundational methods depends on a commercial licence, creating barriers to **reproducibility** (verifying published research requires a licence), **scalability** (large-scale computational work requires per-core Stata/MP licences), and **access** (researchers at less-resourced institutions are locked out).
+**[ivreg2r](https://github.com/restatr/ivreg2r)** — IV/GMM estimation with flexible variance-covariance estimation, matching Stata's `ivreg2`. Initial release available.
 
-## What restatr Does
-
-restatr aims to provide open-source R implementations of the most important Stata commands for applied econometrics, validated for numerical equivalence against the originals.
-
-The first package is **[ivreg2r](https://github.com/restatr/ivreg2r)**, an R implementation of Stata's `ivreg2` for IV/GMM estimation with flexible variance-covariance estimation. It is under active development, with an initial release now available.
+More packages are in development.
 
 ## Links
 
-- [ivreg2r](https://github.com/restatr/ivreg2r)
 - [GitHub Organization](https://github.com/restatr)
+
+## Maintainer
+
+[Francis DiTraglia](https://ditraglia.com)
