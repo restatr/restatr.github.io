@@ -4,7 +4,7 @@
 
 *Reproduce Stata results in R.*
 
-If a paper reports estimates from `ivreg2`, `reghdfe`, or `xtabond2`, reproducing those numbers currently requires a Stata licence. restatr provides open-source R implementations of the underlying methods, rigorously validated against the Stata originals.
+If a paper reports estimates from `ivreg2`, `reghdfe`, or `xtabond2`, reproducing those numbers currently requires a Stata license. restatr provides open-source R implementations of the underlying methods, rigorously validated against the Stata originals.
 
 ## Packages
 
