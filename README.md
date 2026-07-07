@@ -8,7 +8,7 @@ If a paper reports estimates from `ivreg2`, `reghdfe`, or `xtabond2`, reproducin
 
 ## Packages
 
-**[ivreg2r](https://github.com/restatr/ivreg2r)** — IV/GMM estimation with flexible variance-covariance estimation, matching Stata's `ivreg2`. Initial release available.
+**[ivreg2r](https://restatr.com/ivreg2r/)** ([GitHub](https://github.com/restatr/ivreg2r)) — IV/GMM estimation with flexible variance-covariance estimation, matching Stata's `ivreg2`. Initial release available.
 
 More packages are in development.
 
